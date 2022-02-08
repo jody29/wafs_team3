@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+.test {
+    position: absolute;
+}
+
 main section {
     position: relative;
     display: flex;
