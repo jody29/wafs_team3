@@ -57,7 +57,7 @@ main {
 }    
 
 #backgroundKaartjeJodySection {
-    transform: rotate(4deg) scale(.5);
+    transform: rotate(4deg) scale(.3);
 }
 
 #backgroundKaartjeMartijnSection {
