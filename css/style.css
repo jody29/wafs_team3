@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     overflow: hidden;
+    background-image: url('/img/background_Tekengebied\ 1.png');
 }
 
 main section {
