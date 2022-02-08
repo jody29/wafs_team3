@@ -31,10 +31,6 @@ main {
     width: 50%;
 }
 
-img {
-    width: 100%;
-}
-
 
 .fotoContainer {
     position: absolute;
@@ -53,27 +49,28 @@ img {
     border: none;
 }
 
+.fotoContainer a button {
+    cursor: pointer;
+}
+
 .fotoContainer section a button img {
     width: 100%;
 }
 
 #backgroundKaartjeTimSection {
     transform: rotate(5deg) scale(.4) translateX(-200%);
-
+    cursor: move;
 }    
 
 #backgroundKaartjeJodySection {
     transform: rotate(4deg) scale(.4);
     top: 28em;
+    cursor: move;
 }
 
 #backgroundKaartjeMartijnSection {
     transform: rotate(-3deg) scale(.4) translateX(200%);
-    
-}
-
-.fotoContainer a button {
-    cursor: pointer;
+    cursor: move;
 }
 
 @media only screen and (max-width: 950px) {
@@ -97,6 +94,10 @@ img {
         flex-wrap: nowrap;
     }
 
+    img {
+        width: 100%;
+    }
+
     .betrokkenen {
         position: absolute;
         transform: scale(.8);
@@ -112,8 +113,6 @@ img {
         top: 3em;
         display: none;
     }
-
-
 
     .fotoContainer {
         position: relative;
