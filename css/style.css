@@ -7,6 +7,18 @@ body {
     background-size: cover;
 }
 
-.test {
+.fotoContainer {
     position: absolute;
+}
+
+.backgroundKaartjeTimSection {
+    transform: rotate(1deg);
+}
+
+.backgroundKaartjeJodySection {
+    transform: rotate(2deg);
+}
+
+.backgroundKaartjeMartijnSection {
+    transform: rotate(-1deg);
 }
