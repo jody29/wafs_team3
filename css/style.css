@@ -52,17 +52,21 @@ main {
 }
 
 #backgroundKaartjeTimSection {
-    transform: rotate(5deg) scale(.3) translateX(-200%);
+    transform: rotate(5deg) scale(.4) translateX(-200%);
 
 }    
 
 #backgroundKaartjeJodySection {
-    transform: rotate(4deg) scale(.3);
+    transform: rotate(4deg) scale(.4);
 }
 
 #backgroundKaartjeMartijnSection {
-    transform: rotate(-3deg) scale(.3) translateX(200%);
+    transform: rotate(-3deg) scale(.4) translateX(200%);
     
+}
+
+.fotoContainer a button {
+    cursor: pointer;
 }
 
 
