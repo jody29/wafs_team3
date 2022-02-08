@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     overflow: hidden;
-    background-image: url('/img/background_Tekengebied\ 1.png');
+    background-image: url('../img/background_Tekengebied\ 1.png');
     background-size: cover;
 }
 
@@ -36,8 +36,8 @@ main {
 }
 
 #backgroundKaartjeTimSection {
-    transform: rotate(5deg) scale(.3);
-    left: 15em;
+    transform: rotate(5deg) scale(.3) translateX(-200%);
+
 }    
 
 #backgroundKaartjeJodySection {
@@ -45,7 +45,6 @@ main {
 }
 
 #backgroundKaartjeMartijnSection {
-    transform: rotate(-3deg) scale(.3);
-    right: 15em;
+    transform: rotate(-3deg) scale(.3) translateX(200%);
     
 }
