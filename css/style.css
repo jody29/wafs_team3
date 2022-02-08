@@ -11,14 +11,15 @@ body {
     position: absolute;
 }
 
-.backgroundKaartjeTimSection {
-    transform: rotate(1deg);
+#backgroundKaartjeTimSection {
+    transform: rotate(5deg) scale(.3);
+}    
+
+#backgroundKaartjeJodySection {
+    transform: rotate(4deg) scale(.3);
 }
 
-.backgroundKaartjeJodySection {
-    transform: rotate(2deg);
-}
-
-.backgroundKaartjeMartijnSection {
-    transform: rotate(-1deg);
+#backgroundKaartjeMartijnSection {
+    transform: rotate(-3deg) scale(.3);
+    
 }
