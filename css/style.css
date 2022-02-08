@@ -7,12 +7,37 @@ body {
     background-size: cover;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.verdachten {
+    position: absolute;
+    transform: scale(.8);
+    left: -1em;
+    top: 3em;
+
+}
+
+.betrokkenen {
+    position: absolute;
+    transform: scale(.8);
+    right: 0;
+    top: 3em;
+}
+
 .fotoContainer {
     position: absolute;
+    top: 17em;
 }
 
 #backgroundKaartjeTimSection {
     transform: rotate(5deg) scale(.3);
+    left: 15em;
 }    
 
 #backgroundKaartjeJodySection {
@@ -21,5 +46,6 @@ body {
 
 #backgroundKaartjeMartijnSection {
     transform: rotate(-3deg) scale(.3);
+    right: 15em;
     
 }
