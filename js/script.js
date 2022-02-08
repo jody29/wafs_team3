@@ -11,9 +11,9 @@
 //     }).catch(error => document.body.insertAdjacentHTML('beforebegin', error))
 // }
 
-dragElement(document.getElementById("backgroundKaartjeTimSection"));
-dragElement(document.getElementById("backgroundKaartjeJodySection"));
-dragElement(document.getElementById("backgroundKaartjeMartijnSection"));
+dragElement(document.querySelector("#backgroundKaartjeTimSection"));
+dragElement(document.querySelector("#backgroundKaartjeJodySection"));
+dragElement(document.querySelector("#backgroundKaartjeMartijnSection"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
