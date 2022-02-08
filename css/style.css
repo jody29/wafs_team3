@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     overflow: hidden;
-    background-image: url('/img/background_Tekengebied\ 1.png');
+    background-image: url('../img/background_Tekengebied\ 1.png');
     background-size: cover;
 }
 
@@ -35,17 +35,35 @@ main {
     top: 17em;
 }
 
+.fotoContainer section a {
+    position: absolute;
+    right: -9%;
+    top: 0;
+    width: 40%;
+}
+
+.fotoContainer section a button {
+    background: none;
+    border: none;
+}
+
+.fotoContainer section a button img {
+    width: 100%;
+}
+
 #backgroundKaartjeTimSection {
-    transform: rotate(5deg) scale(.3);
+    transform: rotate(5deg) scale(.5);
     left: 15em;
 }    
 
 #backgroundKaartjeJodySection {
-    transform: rotate(4deg) scale(.3);
+    transform: rotate(4deg) scale(.5);
 }
 
 #backgroundKaartjeMartijnSection {
-    transform: rotate(-3deg) scale(.3);
+    transform: rotate(-3deg) scale(.5);
     right: 15em;
     
 }
+
+
